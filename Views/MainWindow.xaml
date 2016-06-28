@@ -38,11 +38,8 @@
                 <MenuItem Header="Orders"></MenuItem>
             </MenuItem>
             <MenuItem Header="Database">
-
             </MenuItem>
         </Menu>
-        <Label Content="{Binding Title}" />
-        <Label Content="Here goes your real content" />
     </catel:StackGrid>
     
 </catel:Window>
