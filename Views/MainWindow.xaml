@@ -8,8 +8,39 @@
         <catel:StackGrid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </catel:StackGrid.RowDefinitions>
-        
+        <Menu>
+            <MenuItem Header="Menu">
+                <MenuItem Header="Loggin"></MenuItem>
+                <MenuItem Header="Reports">
+                    <MenuItem Header="Stock"></MenuItem>
+                    <MenuItem Header="Missions"></MenuItem>
+                    <MenuItem Header="Alarms"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Units">
+                    <MenuItem Header="EL01"></MenuItem>
+                    <MenuItem Header="EL02"></MenuItem>
+                    <MenuItem Header="NV01"></MenuItem>
+                    <MenuItem Header="NV02"></MenuItem>
+                    <MenuItem Header="TR01"></MenuItem>
+                    <MenuItem Header="TR02"></MenuItem>
+                    <MenuItem Header="TR03"></MenuItem>
+                    <MenuItem Header="TR04"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Cells"></MenuItem>
+                <Separator/>
+                <MenuItem Header="Exit"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Process">
+                <MenuItem Header="Missions"></MenuItem>
+                <MenuItem Header="Stock"></MenuItem>
+                <MenuItem Header="Orders"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Database">
+
+            </MenuItem>
+        </Menu>
         <Label Content="{Binding Title}" />
         <Label Content="Here goes your real content" />
     </catel:StackGrid>

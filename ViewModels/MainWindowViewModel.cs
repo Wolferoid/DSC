@@ -9,7 +9,7 @@
         {
         }
 
-        public override string Title { get { return "DSClient"; } }
+        public override string Title { get { return "DimaSimma Storage"; } }
 
         // TODO: Register models with the vmpropmodel codesnippet
         // TODO: Register view model properties with the vmprop or vmpropviewmodeltomodel codesnippets
