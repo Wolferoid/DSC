@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSClient", "DSClient.csproj", "{4EBED15B-2DC5-4CAB-91D1-0701EEBEE123}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginService", "..\LoginService\LoginService.csproj", "{D72B2B14-6EB6-4503-9CBB-3B80D16098A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4EBED15B-2DC5-4CAB-91D1-0701EEBEE123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EBED15B-2DC5-4CAB-91D1-0701EEBEE123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EBED15B-2DC5-4CAB-91D1-0701EEBEE123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72B2B14-6EB6-4503-9CBB-3B80D16098A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72B2B14-6EB6-4503-9CBB-3B80D16098A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72B2B14-6EB6-4503-9CBB-3B80D16098A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72B2B14-6EB6-4503-9CBB-3B80D16098A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
